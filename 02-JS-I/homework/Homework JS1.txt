@@ -1,0 +1,42 @@
+- Variables: Es una manera de almacenar el calor de algo para ser usado luego.  Es decir es como una caja donde se guardan cosas que se utilizarán más adelante.
+
+var a = 10
+a = 10
+
+
+- Strings: Es una cadena de caracteres y debe escribirse siempre entre comillas.
+
+string = "hola"
+string = "10"
+
+
+* Funciones: Són tipos de objetos y se utilizan para calcularlas, cambiarlas, hacer algo con un conjunto de Variables
+
+function suma (a, b) => {
+      return a+b
+}
+aqui meto algo y me lo devuelve
+
+function suma (5, 2) => {
+      return 5+2
+}
+
+
+* Declaraciones `if`: es una condicion, por ejemplo si necesito qu algo no siempre se ejecute o sea leido.
+
+if condicion (condición){
+      lee lo que està aqui
+}
+
+
+* Valores booleanos (`true`, `false`): es si algo es verdadero o si es falso
+
+function puedeManejar(edad) {
+    if (edad > 18) {
+        return true;
+    }
+
+    return false;
+}
+
+puedeManejar(22); // true
